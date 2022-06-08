@@ -1,0 +1,59 @@
+.create-tweet-modal{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    background-color: rgba(39, 39, 39, 0.35);
+}
+
+.modal{
+    position: absolute;
+    background-color: white;
+    padding: 1rem;
+    top: 20%;
+    border-radius: 7px;
+    border-color: rgba(39, 39, 39, 0.35);
+}
+
+.modal-header{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.modal-header .modal-title{
+    font-size: 1.1rem;
+}
+
+.modal-header .modal-close{
+
+    font-size: 1.2rem;
+}
+
+.modal-content span{
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.modal-footer{
+    padding: 1rem 0rem;
+    width: 100%;
+    text-align: center;
+}
+
+.modal-footer button{
+    padding: .5rem;
+    border-radius: 2rem;
+    border: 2px solid #00acee;
+    background-color: white;
+    width: 80%;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #00acee;
+    margin: 0 auto;
+}

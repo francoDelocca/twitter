@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.App-logo {
+    height: 15vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.register-wrapper{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register{
+    width: 80%;
+    padding: 2rem;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    border-radius: 5px;
+}
+
+.register-logo{
+    width: 3.5rem;
+    height: 3.5rem;
+    position: absolute;
+    left: 40%;
+    top: -7%;
+    z-index: 9;
+    background-color: white;
+    border-radius: 120rem;
+    border: 1px solid #00acee;
+}
+
+.register-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group{
+    margin: 1.5rem 0;
+}
+
+.input-group .input-title{
+    display: block;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0.3rem 0;
+}
+
+.input-group .input-controller{
+    width: 100%;
+    font-size: 1.1rem;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    outline: none;
+    padding: .6rem;
+}
+
+.register-button{
+    padding: .7rem;
+    border-radius: 2rem;
+    border: 2px solid #00acee;
+    background-color: white;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #00acee;
+}
+

@@ -1,0 +1,73 @@
+.tweet-category{
+    margin: 0 1rem;
+    padding: 0.6rem 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.tweets-body{
+    margin: 0 1rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.11);
+    border-left: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.tweet-body{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.tweet-wrapper{
+    width: 100%;
+    display: flex;
+}
+
+.tweet-poster{
+    width: 20%;
+    margin-top: 1rem;
+}
+
+.tweet-poster-img{
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 120rem;
+}
+
+.tweet-content{
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+}
+
+.tweet-poster-img {
+    height: 13vmin;
+    pointer-events: none;
+}
+
+.tweet-poster-fullName{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.tweet-poster-nickname{
+    font-size: .9rem;
+    color: grey;
+}
+
+.tweet-content-text{
+    margin-top: .3rem;
+    padding-right: 1rem;
+    font-size: .9rem;
+    line-height: 1.05rem;
+}
+
+.tweet-info{
+    border-top: 1px solid rgba(0, 0, 0, 0.11);
+    padding: .5rem;
+}
+
+.tweet-info .tweet-date{
+    font-size: .9rem;
+    color: grey;
+}
+
+.tweet-info .tweet-info-method{
+    font-size: .9rem;
+    font-weight: bold;
+}
